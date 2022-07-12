@@ -1,0 +1,55 @@
+.md__examples {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+
+    
+
+    margin: 2rem 2rem;
+    padding: 0.5rem 2rem;
+
+    
+
+    
+}
+
+.md__examples a {
+    display: flex;
+    flex:1;
+    text-decoration: none;
+    
+
+}
+
+.md__examples button {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.5rem 2rem;
+
+    border: 0;
+    border-radius: 36px;
+    background-color: black;
+
+    
+
+    cursor: pointer;
+   
+}
+
+.md__examples button:hover {
+    background-color: #333333;
+   
+}
+
+
+.md__examples h3 {
+    font-family: var(--font-family);
+    color: white;
+
+    
+}
+
