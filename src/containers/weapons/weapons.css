@@ -1,6 +1,8 @@
 .md__weapons {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     
     padding: 2rem 2rem;
     min-height: 500px;
@@ -10,10 +12,15 @@
 
 .md__weapons-content {
     margin: 0.5rem 2rem;
+    /* align-items: center; */
 
     font-family: var(--font-family);
     color: white;
 }
+
+/* .md__weapons-content h4 {
+    align-items: center;
+} */
 
 .md__weapons-content img {
     padding: 4px 0px;

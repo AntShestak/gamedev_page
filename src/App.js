@@ -5,9 +5,9 @@ import { Diploma , Examples, Weapons, Shopping } from './containers';
 
 function App() {
 
-  useEffect(() => {
-    document.title = "Ant's game portfolio"
-  },[]) ;
+  // useEffect(() => {
+  //   document.title = "Ant's game portfolio"
+  // },[]) ;
 
   return (
     <div className="App">
