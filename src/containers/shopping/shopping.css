@@ -1,6 +1,9 @@
 .md__shop {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
     
     padding: 2rem 2rem;
     
@@ -14,10 +17,3 @@
     color: black;
 }
 
-@media screen and (max-width: 1200px) {
-    .md__shop {
-        flex-direction: column;
-    }
-
-    
-}
