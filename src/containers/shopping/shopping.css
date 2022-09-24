@@ -17,3 +17,36 @@
     color: black;
 }
 
+.md__shop-link {
+    margin-bottom: 8px;
+}
+
+.md__shop-link a{
+    position: relative;
+    left: 410px;
+    
+}
+
+.md__shop-icons_changeColor {
+    color: black;
+}
+
+.md__shop-icons_changeColor:hover {
+    color: grey;
+}
+
+@media screen and (max-width: 960px) {
+    .md__shop-link {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+       
+        margin-bottom: 6px;
+    }
+
+    .md__shop-link a{
+        position: static;
+   
+    }
+}
+

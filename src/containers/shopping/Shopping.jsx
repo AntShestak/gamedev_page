@@ -2,6 +2,7 @@ import React from 'react'
 
 import "./shopping.css"
 import { VideoL } from '../../components';
+import { AiFillGithub} from 'react-icons/ai'
 
 const Shopping = () => {
   return (
@@ -13,6 +14,14 @@ const Shopping = () => {
             recognition, multi-platform support and animated GUI.
         </p>
       </div>
+      <div className='md__shop-link'>
+        <a href="https://github.com/AntShestak" target="_blank" rel="noreferrer">
+          <div className='md__shop-icons_changeColor'>
+              <AiFillGithub  size='1.5em'/>
+          </div>        
+        </a>
+      </div>
+      
       <VideoL embedId='VQ5qc4Uqg5Y'/>
     </div>
   )
