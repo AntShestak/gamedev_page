@@ -11,7 +11,7 @@ function Navbar() {
                 <h4>Game Development</h4>
             </div>
             <div className='md__navbar-icons'>
-                <a href="https://www.linkedin.com/in/antons-sestaks-ab13b5201/" target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/antgamedev/" target="_blank" rel="noreferrer">
                     <div className='md__navbar-icons_changeColor'>
                         <AiFillLinkedin  size='2em'/>
                     </div>
