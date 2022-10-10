@@ -15,7 +15,7 @@ const Shopping = () => {
         </p>
       </div>
       <div className='md__shop-link'>
-        <a href="https://github.com/AntShestak" target="_blank" rel="noreferrer">
+        <a href="https://github.com/AntShestak/AR_Shopping" target="_blank" rel="noreferrer">
           <div className='md__shop-icons_changeColor'>
               <AiFillGithub  size='1.5em'/>
           </div>        
